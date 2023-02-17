@@ -5,17 +5,31 @@ ul {
     width: 60%;
     align-items: center;
     overflow: hidden;
-    background-color: #333;
   }
   
-  li {
+  /* li {
     float: left;
-  }
+  }*/
   
   li a {
-    display: block;
+    display: inline;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px;
     text-decoration: none;
-  }
+  } 
+
+
+
+ul.centerUL {
+    margin: auto;
+    line-height: 1.4;
+    padding-top: 5%;
+    list-style-type: none;
+    color: white;
+}
+.centerUL li {
+    display: inline;
+    color: white;
+    text-align: center;
+}
