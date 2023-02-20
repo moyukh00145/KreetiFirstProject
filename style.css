@@ -1,26 +1,8 @@
 /* Navigation section Css */
-
-ul {
-    list-style-type: none;
-    margin: auto;
-    padding: 0;
-    width: 60%;
-    align-items: center;
-    overflow: hidden;
-    padding-bottom: 2%;
-  }
-  
-li a {
-  display: inline;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  text-decoration: none;
-} 
 ul.centerUL {
     margin: auto;
     line-height: 1.4;
-    padding-top: 5%;
+    padding-top: 3%;
     list-style-type: none;
     color: white;
 }
@@ -28,6 +10,54 @@ ul.centerUL {
     display: inline;
     color: white;
     text-align: center;
+}
+
+.custom_header{
+  background-color: rgb(106, 147, 131);
+}
+
+.custom_nav{
+  height: 8rem; 
+  margin: 0;
+  padding: 0; 
+  text-align: center; 
+  align-items: center;
+}
+
+
+
+/* Util */
+
+.make_center_align{
+  margin: auto; 
+  width: fit-content;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  width: 60%;
+  align-items: center;
+  overflow: hidden;
+  padding-bottom: 2%;
+}
+
+li a {
+display: inline;
+color: white;
+text-align: center;
+padding: 10px;
+text-decoration: none;
+} 
+
+.horizontal_line{
+  height:3px;
+  border-width:0;
+  color:white;
+  background-color: white ;
+  width: 95%;margin: auto;
 }
 
 
