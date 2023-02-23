@@ -9,15 +9,8 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="./style.css">
@@ -33,31 +26,45 @@
 
         <h2 class="make_center_align" style="padding-top: 1rem; color: white;">Look</h2>
 
-
-        <!-- Navigation Bar -->
-        <nav class="custom_nav">
-
-            <ul class="centerUL">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-
-            <hr class="horizontal_line">
-        </nav>
-
+        <!-- Navigation bar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a href="#" class="navbar-brand"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a  aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a  href="#">Services</a>
+                  </li> 
+                  <li class="nav-item">
+                    <a  href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a  href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <hr class="horizontal_line">
         <!-- Carousel portion -->
         <section class="header_section">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
+                    <div class="carousel-item active" data-bs-interval="1500">
                         <div class="container">
                             <div class="d-flex justify-content-center">
 
                                 <img src="./assets/Spires-About-Mac.png" alt="" width="200px" height="200px">
-                                <div style="width: 25rem; text-align: center;padding-left: 2rem;">
+                                <div class="carausel_header">
                                     <h2>Awsome website template</h2>
                                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, pariatur.</p>
                                 </div>
@@ -65,13 +72,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item ">
+                    <div class="carousel-item "data-bs-interval="1500">
                         <div class="container">
                             <div class="d-flex justify-content-center">
 
                                 <img src="https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80"
                                     alt="" width="200px" height="200px">
-                                <div style="width: 25rem; text-align: center;padding-left: 2rem;">
+                                <div class="carausel_header">
                                     <h2>Awsome website template</h2>
                                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, pariatur.</p>
                                 </div>
@@ -79,12 +86,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item ">
+                    <div class="carousel-item " data-bs-interval="1500">
                         <div class="container">
                             <div class="d-flex justify-content-center">
 
                                 <img src="./assets/Spires-About-Mac.png" alt="" width="200px" height="200px">
-                                <div style="width: 25rem; text-align: center;padding-left: 2rem;">
+                                <div class="carausel_header">
                                     <h2>Awsome website template</h2>
                                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, pariatur.</p>
                                 </div>
@@ -123,54 +130,54 @@
         <div class="row p-5 justify-content-center">
             <div class="col-12 col-lg-3 col-md-4 col-sm-6">
                 <div class="custom_card">
-                    <img src="./assets/cat.jpg" class="img-fluid rounded-circle m-auto thumb_img" alt="...">
+                    <img src="./assets/cat.jpg" class="img-fluid rounded-circle m-auto thumb_img round_image_fit" alt="...">
                     <div class="card-body text-center">
-                        <h5>Lorem ipsum dolor sit amet.</h5>
+                        <h5>Lorem ipsum dolor sit.</h5>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, vel?</p>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-lg-3 col-md-4 col-sm-6">
                 <div class="custom_card">
-                    <img src="./assets/cat.jpg" class="img-fluid rounded-circle m-auto thumb_img" alt="...">
+                    <img src="https://images.unsplash.com/photo-1600804340584-c7db2eacf0bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cHVwcHl8ZW58MHx8MHx8&auto=format&fit=crop&w=150&q=60" class="img-fluid rounded-circle m-auto thumb_img round_image_fit round_image_fit" alt="...">
                     <div class="card-body text-center">
-                        <h5>Lorem ipsum dolor sit amet.</h5>
+                        <h5>Lorem ipsum dolor sit.</h5>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, vel?</p>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-lg-3 col-md-4 col-sm-6">
                 <div class="custom_card">
-                    <img src="./assets/cat.jpg" class="img-fluid rounded-circle m-auto thumb_img" alt="...">
+                    <img src="https://images.unsplash.com/photo-1620189507187-1ecc7e2e9cff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fHB1cHB5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="img-fluid rounded-circle m-auto thumb_img round_image_fit" alt="...">
                     <div class="card-body text-center">
-                        <h5>Lorem ipsum dolor sit amet.</h5>
+                        <h5>Lorem ipsum dolor sit.</h5>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, vel?</p>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-lg-3 col-md-4 col-sm-6">
                 <div class="custom_card">
-                    <img src="./assets/cat.jpg" class="img-fluid rounded-circle m-auto thumb_img" alt="...">
+                    <img src="https://images.unsplash.com/photo-1526773357673-2d4e8116d497?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW5zZWN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="img-fluid rounded-circle m-auto thumb_img round_image_fit" alt="...">
                     <div class="card-body text-center">
-                        <h5>Lorem ipsum dolor sit amet.</h5>
+                        <h5>Lorem ipsum dolor sit.</h5>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, vel?</p>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-lg-3 col-md-4 col-sm-6">
                 <div class="custom_card">
-                    <img src="./assets/cat.jpg" class="img-fluid rounded-circle m-auto thumb_img" alt="...">
+                    <img src="https://images.unsplash.com/photo-1604917621956-10dfa7cce2e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGJveXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="img-fluid rounded-circle m-auto thumb_img round_image_fit" alt="...">
                     <div class="card-body text-center">
-                        <h5>Lorem ipsum dolor sit amet.</h5>
+                        <h5>Lorem ipsum dolor sit.</h5>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, vel?</p>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-lg-3 col-md-4 col-sm-6">
                 <div class="custom_card">
-                    <img src="./assets/cat.jpg" class="img-fluid rounded-circle m-auto thumb_img" alt="...">
+                    <img src="https://images.unsplash.com/photo-1516368694098-47836cebec97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHVtYnJlbGxhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="img-fluid rounded-circle m-auto thumb_img round_image_fit" alt="...">
                     <div class="card-body text-center">
-                        <h5>Lorem ipsum dolor sit amet.</h5>
+                        <h5>Lorem ipsum dolor sit.</h5>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, vel?</p>
                     </div>
                 </div>
@@ -218,7 +225,7 @@
                     <div class="text-center">
                         <h4 class="custom_border">COMPANY NAME</h4><i class="arrow right"></i>
                     </div>
-                    <div class="text-center  mt-5">
+                    <div class="text-center  name_spacing">
                         <h4 class="custom_border">COMPANY NAME</h4><i class="arrow right"></i>
                     </div>
                 </div>
@@ -231,7 +238,7 @@
                     <div class="text-center">
                         <h4 class="custom_border">COMPANY NAME</h4><i class="arrow right"></i>
                     </div>
-                    <div class="text-center  mt-5">
+                    <div class="text-center  name_spacing">
                         <h4 class="custom_border">COMPANY NAME</h4><i class="arrow right"></i>
                        
                     </div>
@@ -250,13 +257,5 @@
     </footer>
 
 </body>
-
-<script type="text/javascript">
-    $(document).ready(function () {
-        $('.carousel').carousel({
-            interval: 1200
-        })
-    });
-</script>
 
 </html>
