@@ -1,23 +1,15 @@
 /* Navigation section Css */
-ul.centerUL {
-    margin: auto;
-    line-height: 1.4;
-    padding-top: 3%;
-    list-style-type: none;
-    color: white;
-}
-.centerUL li {
-    display: inline;
-    color: white;
-    text-align: center;
-}
-/* hr{
-  height: 3px !important;
-  border: none;
-} */
 
-.custom_header{
+._header{
   background-color: rgb(106, 147, 131);
+}
+
+.header_heading{
+  padding-top: 1rem;
+   color: white;
+   font-size: 2.5rem;
+   font-family: 'ITC Cheltenham Handtooled Std'
+   
 }
 
 .custom_nav{
@@ -30,13 +22,13 @@ ul.centerUL {
 
 /* Inside header Carausel section */
 
-.header_section{
+.header_caraousel{
   height: 19rem;;
   padding-top: 2.5rem;
   padding-bottom: 4rem;
 }
 
-.carausel_header{
+.carausel_inner_heading{
   width: 25rem; 
   text-align: start;
   padding-left: 2rem;
@@ -45,6 +37,15 @@ ul.centerUL {
 
 
 /* Second section od thumbnil section */
+
+.card_section_header{
+  height: fit-content; 
+  background-color: rgb(51,51,51); 
+  align-items: center;
+  color: white; 
+  padding: 1rem;
+   text-align: center;
+}
 
 .custom_card{
   display: flex;
@@ -106,6 +107,15 @@ ul.centerUL {
   margin-bottom: 3rem;
 }
 
+.fourth_section p{
+  font-size: 1.5rem;
+  margin-bottom: 0px;
+}
+.fourth_section h4{
+  font-size: calc(0.9rem + .4vw);
+  font-weight: bold;
+}
+
 .arrow {
   border: solid rgb(120,229,211);
   border-width: 0 3px 3px 0;
@@ -138,7 +148,7 @@ ul.centerUL {
 @media (max-width:575px) {
 
   .name_spacing{
-    margin-top: 0px ;
+    margin-top: 1rem ;
   }
   
 }
