@@ -19,252 +19,285 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Golos+Text&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Golos+Text&family=Noto+Sans+Bassa+Vah&family=Work+Sans:wght@300&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Golos+Text&family=Noto+Sans+Bassa+Vah:wght@400;600&family=Work+Sans:wght@300&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Golos+Text&family=Noto+Sans+Bassa+Vah:wght@400;600&family=Oswald:wght@300&family=Work+Sans:wght@300&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
 
     <!-- Header portion Navigation bar and Carousel included -->
 
-    <header class="_header">
-        <h2 class="header_heading make_center_align">LOOK</h2>
+    <div class="container-fluid mw-100 p-0">
+
+        <header class="_header">
+            <h2 class="header_heading make_center_align">LOOK</h2>
 
 
-        <!-- Navigation bar -->
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container">
-                <a href="#" class="navbar-brand"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#">Contact</a>
-                        </li>
-                    </ul>
+            <!-- Navigation bar -->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <a href="#" class="navbar-brand"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+            </nav>
+
+
+            <hr class="horizontal_line">
+
+
+            <!-- Carousel portion -->
+            <section class="header_caraousel">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="1500">
+                            <div class="container">
+                                <div class="d-flex justify-content-center">
+                                    <img src="./assets/Spires-About-Mac.png" alt="" width="200">
+                                    <div class="carausel_inner_heading">
+                                        <h1>AWESOME <strong>WEBSITE TEMPLATE</strong></h1>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, pariatur.
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item " data-bs-interval="1500">
+                            <div class="container">
+                                <div class="d-flex justify-content-center">
+                                    <img src="https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80"
+                                        alt="" width="200px" height="200px">
+                                    <div class="carausel_inner_heading">
+                                        <h1>AWESOME <strong>WEBSITE TEMPLATE</strong></h1>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, pariatur.
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item " data-bs-interval="1500">
+                            <div class="container">
+                                <div class="d-flex justify-content-center">
+                                    <img src="./assets/Spires-About-Mac.png" alt="" width="200px" height="200px">
+                                    <div class="carausel_inner_heading">
+                                        <h1>AWESOME <strong>WEBSITE TEMPLATE</strong></h1>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, pariatur.
+                                        </p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+                </div>
+            </section>
+        </header>
+
+        <section>
+            <div class="card_section_header">
+
+                <h3 class="make_center_align">Lorem ipsum dolor sit amet consectetur</h3>
+                <h6 class="make_center_align">Lorem ipsum, dolor
+                    sit amet consectetur adipisicing elit. Tempore!</h6>
+
             </div>
-        </nav>
 
+            <!-- Main Card portion -->
 
-        <hr class="horizontal_line">
+            <div class="container">
 
-
-        <!-- Carousel portion -->
-        <section class="header_caraousel">
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="1500">
-                        <div class="container">
-                            <div class="d-flex justify-content-center">
-                                <img src="./assets/Spires-About-Mac.png" alt="" width="200px" height="200px">
-                                <div class="carausel_inner_heading">
-                                    <h2>Awsome website template</h2>
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, pariatur.</p>
-                                </div>
-
+                <div class="row p-5 justify-content-center card_section">
+                    <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+                        <div class="custom_card">
+                            <img src="./assets/cat.jpg"
+                                class="img-fluid rounded-circle m-auto thumb_img round_image_fit" alt="...">
+                            <div class="card-body text-center">
+                                <h6>Lorem ipsum dolor sit.</h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, vel?</p>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item " data-bs-interval="1500">
-                        <div class="container">
-                            <div class="d-flex justify-content-center">
-                                <img src="https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80"
-                                    alt="" width="200px" height="200px">
-                                <div class="carausel_inner_heading">
-                                    <h2>Awsome website template</h2>
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, pariatur.</p>
-                                </div>
-
+                    <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+                        <div class="custom_card">
+                            <img src="https://images.unsplash.com/photo-1600804340584-c7db2eacf0bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cHVwcHl8ZW58MHx8MHx8&auto=format&fit=crop&w=150&q=60"
+                                class="img-fluid rounded-circle m-auto thumb_img round_image_fit round_image_fit"
+                                alt="...">
+                            <div class="card-body text-center ">
+                                <h6>Lorem ipsum dolor sit.</h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, vel?</p>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item " data-bs-interval="1500">
-                        <div class="container">
-                            <div class="d-flex justify-content-center">
-                                <img src="./assets/Spires-About-Mac.png" alt="" width="200px" height="200px">
-                                <div class="carausel_inner_heading">
-                                    <h2>Awsome website template</h2>
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, pariatur.</p>
-                                </div>
-
+                    <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+                        <div class="custom_card">
+                            <img src="https://images.unsplash.com/photo-1620189507187-1ecc7e2e9cff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fHB1cHB5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                                class="img-fluid rounded-circle m-auto thumb_img round_image_fit" alt="...">
+                            <div class="card-body text-center">
+                                <h6>Lorem ipsum dolor sit.</h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, vel?</p>
                             </div>
-
                         </div>
                     </div>
-
+                    <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+                        <div class="custom_card">
+                            <img src="https://images.unsplash.com/photo-1526773357673-2d4e8116d497?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW5zZWN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                                class="img-fluid rounded-circle m-auto thumb_img round_image_fit" alt="...">
+                            <div class="card-body text-center">
+                                <h6>Lorem ipsum dolor sit.</h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, vel?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+                        <div class="custom_card">
+                            <img src="https://images.unsplash.com/photo-1604917621956-10dfa7cce2e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGJveXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                                class="img-fluid rounded-circle m-auto thumb_img round_image_fit" alt="...">
+                            <div class="card-body text-center">
+                                <h6>Lorem ipsum dolor sit.</h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, vel?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+                        <div class="custom_card">
+                            <img src="https://images.unsplash.com/photo-1516368694098-47836cebec97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHVtYnJlbGxhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                                class="img-fluid rounded-circle m-auto thumb_img round_image_fit" alt="...">
+                            <div class="card-body text-center">
+                                <h6>Lorem ipsum dolor sit.</h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, vel?</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                </button>
             </div>
         </section>
-    </header>
-    
-    <section>
-        <div class="card_section_header">
 
-            <h5 class="make_center_align">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, aliquam?</h5>
-            <h6 class="make_center_align">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore!</h6>
-    
-        </div>
+        <section class="third_section">
 
-        <!-- Main Card portion -->
-
-        <div class="container">
-
-            <div class="row p-5 justify-content-center">
-                <div class="col-12 col-lg-3 col-md-4 col-sm-6">
-                    <div class="custom_card">
-                        <img src="./assets/cat.jpg" class="img-fluid rounded-circle m-auto thumb_img round_image_fit"
-                            alt="...">
-                        <div class="card-body text-center">
-                            <h5>Lorem ipsum dolor sit.</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, vel?</p>
+            <div class="container">
+                <!-- <div class="row">
+                    <div class="col-12 col-sm-12 col-lg-6 col-md-12 col-sm-6">
+                        <div class="custom_card3">
+                            <img src="./assets/pc.jpg" class="rounded" alt="..." height="60%" width="60%">
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-lg-3 col-md-4 col-sm-6">
-                    <div class="custom_card">
-                        <img src="https://images.unsplash.com/photo-1600804340584-c7db2eacf0bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cHVwcHl8ZW58MHx8MHx8&auto=format&fit=crop&w=150&q=60"
-                            class="img-fluid rounded-circle m-auto thumb_img round_image_fit round_image_fit" alt="...">
-                        <div class="card-body text-center">
-                            <h5>Lorem ipsum dolor sit.</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, vel?</p>
+                    <div class="col-12 col-sm-12 col-lg-6 col-md-12 col-sm-6">
+                        <div class="custom_card2">
+                            <h4 style="font-weight: 200;">Sed cursor dolor sit amet dignism lotcus</h4>
+                            <p style="font-size: 0.9rem; font-weight: 400;color: gray;">Lorem, ipsum dolor sit amet
+                                consectetur adipisicing elit. Officiis reiciendis laudantium
+                                perferendis neque recusandae distinctio.</p>
+                            <button class="btn btn-primary custom_btn">Read More</button>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-lg-3 col-md-4 col-sm-6">
-                    <div class="custom_card">
-                        <img src="https://images.unsplash.com/photo-1620189507187-1ecc7e2e9cff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fHB1cHB5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                            class="img-fluid rounded-circle m-auto thumb_img round_image_fit" alt="...">
-                        <div class="card-body text-center">
-                            <h5>Lorem ipsum dolor sit.</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, vel?</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-3 col-md-4 col-sm-6">
-                    <div class="custom_card">
-                        <img src="https://images.unsplash.com/photo-1526773357673-2d4e8116d497?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW5zZWN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                            class="img-fluid rounded-circle m-auto thumb_img round_image_fit" alt="...">
-                        <div class="card-body text-center">
-                            <h5>Lorem ipsum dolor sit.</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, vel?</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-3 col-md-4 col-sm-6">
-                    <div class="custom_card">
-                        <img src="https://images.unsplash.com/photo-1604917621956-10dfa7cce2e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGJveXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-                            class="img-fluid rounded-circle m-auto thumb_img round_image_fit" alt="...">
-                        <div class="card-body text-center">
-                            <h5>Lorem ipsum dolor sit.</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, vel?</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-3 col-md-4 col-sm-6">
-                    <div class="custom_card">
-                        <img src="https://images.unsplash.com/photo-1516368694098-47836cebec97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHVtYnJlbGxhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                            class="img-fluid rounded-circle m-auto thumb_img round_image_fit" alt="...">
-                        <div class="card-body text-center">
-                            <h5>Lorem ipsum dolor sit.</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, vel?</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="third_section">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-sm-12 col-lg-6 col-md-12 col-sm-6">
+                </div> -->
+                <div class="video_container">
                     <div class="custom_card3">
-                        <img src="./assets/pc.jpg" class="rounded" alt="..." height="60%" width="60%">
+                        <img src="./assets/pc.jpg" class="rounded" alt="..." width="80%">
                     </div>
-                </div>
-                <div class="col-12 col-sm-12 col-lg-6 col-md-12 col-sm-6">
+
                     <div class="custom_card2">
-                        <h3>Sed cursor dolor sit amet dignism lotcus</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis reiciendis laudantium
+                        <h4 style="font-weight: 200;">Sed cursor dolor sit amet dignism lotcus</h4>
+                        <p style="font-size: 0.9rem; font-weight: 400;color: gray;">Lorem, ipsum dolor sit amet
+                            consectetur adipisicing elit. Officiis reiciendis laudantium
                             perferendis neque recusandae distinctio.</p>
                         <button class="btn btn-primary custom_btn">Read More</button>
                     </div>
+
                 </div>
-
-
+               
             </div>
-        </div>
 
 
-    </section>
+        </section>
 
-    <section class="fourth_section">
-        <div class="container container_modified">
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-6 custom_card4">
-                    <h3>Prasent la culla popervsdfbv dfhdsdf</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing
-                        elit. Culpa quos nemo deserunt, ratione cumque
-                        sequi eos iure voluptatibus veritatis rerum?Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit.</p>
+        <section class="fourth_section">
+            <div class="container container_modified company_about">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 pt-3">
+                        <h4 style="font-weight: 200;">Prasent la culla popervsdfbv dfhdsdf</h4>
+                        <p>Lorem ipsum dolor sit amet
+                            consectetur adipisicing
+                            elit. Culpa quos nemo deserunt, ratione cumque
+                            sequi eos iure voluptatibus veritatis rerum?Lorem ipsum dolor sit, amet consectetur
+                            adipisicing
+                            elit.</p>
+                    </div>
+                    <div class="col-12 col-sm-4 col-md-4 col-lg-2 align-self-end">
+                        <div class="text-center mt-3">
+                            <h4 class="company_name">COMPANY NAME</h4><i class="arrow right arrow_adjust"></i>
+                        </div>
+                        <div class="text-center  mt-3">
+                            <h4 class="company_name">COMPANY NAME</h4><i class="arrow right arrow_adjust"></i>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-4 col-md-4 col-lg-2 align-self-end">
+                        <div class="text-center  mt-3">
+                            <h4 class="company_name">COMPANY NAME</h4><i class="arrow right arrow_adjust"></i>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-4 col-md-4 col-lg-2 align-self-end">
+                        <div class="text-center mt-3">
+                            <h4 class="company_name">COMPANY NAME</h4><i class="arrow right arrow_adjust"></i>
+                        </div>
+                        <div class="text-center  mt-3">
+                            <h4 class="company_name">COMPANY NAME</h4><i class="arrow right arrow_adjust"></i>
+
+                        </div>
+
+                    </div>
+
+
                 </div>
-                <div class="col-12 col-sm-4 col-md-4 col-lg-2 align-self-end">
-                    <div class="text-center name_spacing">
-                        <h4 class="custom_border">COMPANY NAME</h4><i class="arrow right"></i>
-                    </div>
-                    <div class="text-center  name_spacing">
-                        <h4 class="custom_border">COMPANY NAME</h4><i class="arrow right"></i>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-4 col-md-4 col-lg-2 align-self-end">
-                    <div class="text-center name_spacing ">
-                        <h4 class="custom_border">COMPANY NAME</h4><i class="arrow right"></i>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-4 col-md-4 col-lg-2 align-self-end">
-                    <div class="text-center name_spacing">
-                        <h4 class="custom_border">COMPANY NAME</h4><i class="arrow right"></i>
-                    </div>
-                    <div class="text-center  name_spacing">
-                        <h4 class="custom_border">COMPANY NAME</h4><i class="arrow right"></i>
-
-                    </div>
-
-                </div>
-
-
             </div>
-        </div>
-    </section>
+        </section>
 
-    <footer class="custom_footer">
+        <footer class="custom_footer">
 
-        <h4 class="text-center">Copyright © 2019 Look.pvt.ltd All rights reserved</h4>
+            <h4>Copyright © 2019 Look.pvt.ltd All rights reserved</h4>
 
-    </footer>
+        </footer>
+    </div>
 
 </body>
 

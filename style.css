@@ -1,3 +1,4 @@
+
 /* Navigation section Css */
 
 ._header{
@@ -23,16 +24,28 @@
 /* Inside header Carausel section */
 
 .header_caraousel{
-  height: 19rem;;
+  height: 19rem;
   padding-top: 2.5rem;
   padding-bottom: 4rem;
 }
 
 .carausel_inner_heading{
-  width: 25rem; 
+  /* width: 25rem;  */
   text-align: start;
-  padding-left: 2rem;
+  /* padding-left: 2rem; */
   color: white;
+}
+
+.carausel_inner_heading h1{
+  /* font-size: 2.5rem; */
+  width: 50%;
+  font-weight: 200;
+  margin: 0px;
+}
+
+.carausel_inner_heading p{
+  font-size: 0.8rem;
+  color: rgb(211 211 211);
 }
 
 
@@ -44,7 +57,14 @@
   align-items: center;
   color: white; 
   padding: 1rem;
-   text-align: center;
+  text-align: center;
+}
+.card_section_header h3{
+  font-weight: 200;
+}
+
+.card_section_header h6{
+  font-size: 0.9rem;font-weight: 500;color: grey;
 }
 
 .custom_card{
@@ -70,6 +90,19 @@
 	transform: translateY(-15px);
 }
 
+.custom_card div{
+  padding: 0.3rem;
+}
+
+.card_section  div{
+  padding: 0.3rem;
+}
+
+.card-body p{
+  font-size: 0.9rem;
+  color: grey;
+}
+
 
 /* Third section pc video player */
 
@@ -90,8 +123,8 @@
   flex-direction: row;
   justify-content: center;
   box-sizing: border-box;
+  align-items: center;
   padding-top: 3rem;
-  padding-bottom: 2rem;
 }
 .custom_btn{
   width: 30%;
@@ -99,28 +132,39 @@
   border: none;
 }
 
+.video_container{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 2rem;
+}
+
 
 /* Fourth section company name */
 
-.fourth_section{
+.company_about{
   height: fit-content;
-  margin-bottom: 3rem;
+  padding-bottom: 3rem;
 }
 
-.fourth_section p{
-  font-size: 1.5rem;
+.company_about p{
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: gray;
   margin-bottom: 0px;
 }
-.fourth_section h4{
-  font-size: calc(0.9rem + .4vw);
+/* .fourth_section h4{
+  font-size: calc(0.8rem + 0.3vw);
   font-weight: bold;
 }
 
+.fourth_section h3{
+  font-size: calc(1.3rem + .5vw);
+} */
 .arrow {
   border: solid rgb(120,229,211);
   border-width: 0 3px 3px 0;
   display: inline-block;
-  padding: 0.4rem;
+  padding: 0.5rem;
 }
 
 .right {
@@ -128,21 +172,32 @@
   -webkit-transform: rotate(-45deg);
 }
 
-.custom_border{
+.company_name{
   border-bottom: 3px solid rgb(120,229,211); 
   text-align: center;
   display: inline;
+  padding-right: 0.3rem;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 
-.custom_card4{
+/* .custom_card4{
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
   padding-top: 3rem;
-}
+} */
 
-.name_spacing{
+/* .name_spacing{
   margin-top: 3rem ;
+} */
+
+.arrow_adjust{
+  /* margin-left: -9px;
+  margin-bottom: -4px; */
+  margin-left: -0.6rem;
+  margin-bottom: -0.25rem;
 }
 
 @media (max-width:575px) {
@@ -158,14 +213,28 @@
 
 .custom_footer{
   height: fit-content;
-  padding: 1rem;
   background-color: rgb(98,179,196);
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: static;
+  bottom: 0px;
+  left: 0px;
+  padding: 0.5rem;
+}
+
+.custom_footer h4{
+  font-size: 0.9rem;
+  text-align: center;
+  font-weight: 200;
+  margin-bottom: 0px;
 }
 
 
 
 /* Util */
+
 
 .make_center_align{
   margin: auto; 
@@ -211,8 +280,8 @@ li :hover{
 }
 
 .thumb_img{
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
 }
 
 
@@ -225,3 +294,39 @@ li :hover{
 
 
 
+@media (min-width:1006px) {
+  
+  html{
+    font-size: 18px;
+  }
+}
+
+@media (max-width:1005px) {
+  
+  html{
+    font-size: 16px;
+  }
+}
+
+@media (max-width:768px) {
+  
+  html{
+    font-size: 14px;
+  }
+}
+
+@media (max-width:576px) {
+  
+  html{
+    font-size: 12px;
+  }
+}
+
+
+@media (max-width:768px) {
+  
+  .video_container{
+    flex-direction: column;
+    align-items: center;
+  }
+}
