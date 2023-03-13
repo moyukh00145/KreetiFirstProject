@@ -1,73 +1,73 @@
 
 /* Navigation section Css */
 
-._header{
+.header{
   background-color: rgb(106, 147, 131);
 }
 
-.header_heading{
+.header-heading{
   padding-top: 1rem;
    color: white;
    font-size: 2.5rem;
-   font-family: 'ITC Cheltenham Handtooled Std'
-   
+   font-family: 'ITC Cheltenham Handtooled Std';
+   margin: auto; 
+   width: fit-content;
 }
 
-.custom_nav{
-  height: 8rem; 
-  margin: 0;
-  padding: 0; 
-  text-align: center; 
-  align-items: center;
+.horizontal-line{
+  height:3px !important;
+  border-width:0;
+  color:white;
+  background-color: white ;
+  width: 95%;margin: auto;
 }
 
 /* Inside header Carausel section */
 
-.header_caraousel{
+.header-caraousel{
   height: 19rem;
   padding-top: 2.5rem;
   padding-bottom: 4rem;
 }
 
-.carausel_inner_heading{
-  /* width: 25rem;  */
+.carausel-inner-heading{
   text-align: start;
-  /* padding-left: 2rem; */
   color: white;
 }
 
-.carausel_inner_heading h1{
-  /* font-size: 2.5rem; */
+.carausel-inner-heading h1{
   width: 50%;
   font-weight: 200;
   margin: 0px;
 }
 
-.carausel_inner_heading p{
+.carausel-inner-heading p{
   font-size: 0.8rem;
   color: rgb(211 211 211);
 }
 
-
 /* Second section od thumbnil section */
 
-.card_section_header{
+.card-section-header{
   height: fit-content; 
   background-color: rgb(51,51,51); 
-  align-items: center;
   color: white; 
   padding: 1rem;
   text-align: center;
 }
-.card_section_header h3{
+.card-section-header h3{
   font-weight: 200;
+  margin: auto;
 }
 
-.card_section_header h6{
-  font-size: 0.9rem;font-weight: 500;color: grey;
+.card-section-header h6{
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: grey;
+  margin: auto;
 }
 
-.custom_card{
+.custom-card{
   display: flex;
   flex-direction: column;
   padding-top: 0.5rem;
@@ -76,25 +76,25 @@
   border-radius: 1.5rem;
 }
 
-.custom_card :hover{
+.custom-card :hover{
   box-shadow: 3px;
 }
 
-.round_image_fit{
+.round-image-fit{
   object-fit:cover;
 }
 
-.custom_card:hover
+.custom-card:hover
 {
 	box-shadow: 0 20px 40px rgba(72,78,85,.6);
 	transform: translateY(-15px);
 }
 
-.custom_card div{
+.custom-card div{
   padding: 0.3rem;
 }
 
-.card_section  div{
+.card-section  div{
   padding: 0.3rem;
 }
 
@@ -103,22 +103,20 @@
   color: grey;
 }
 
-
 /* Third section pc video player */
 
-.third_section{
-  height: fit-content; 
+#third-section{
   background-color: rgb(51,51,51); 
   color: white;
 }
-.custom_card2{
+.video-container-description{
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
   padding-top: 3rem;
   padding-bottom: 2rem;
 }
-.custom_card3{
+.video-container-preview{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -126,40 +124,37 @@
   align-items: center;
   padding-top: 3rem;
 }
-.custom_btn{
+.custom-btn{
   width: 30%;
   background-color: rgb(154,201,231);
   border: none;
 }
 
-.video_container{
+.video-container{
   display: flex;
   flex-direction: row;
   padding-bottom: 2rem;
 }
 
+.video-container-description p{
+  font-size: 0.9rem; 
+  font-weight: 400;
+  color: gray;
+}
 
-/* Fourth section company name */
+/* Footer section */
 
-.company_about{
+.company-about{
   height: fit-content;
   padding-bottom: 3rem;
 }
 
-.company_about p{
+.company-about p{
   font-size: 0.9rem;
   font-weight: 400;
   color: gray;
   margin-bottom: 0px;
 }
-/* .fourth_section h4{
-  font-size: calc(0.8rem + 0.3vw);
-  font-weight: bold;
-}
-
-.fourth_section h3{
-  font-size: calc(1.3rem + .5vw);
-} */
 .arrow {
   border: solid rgb(120,229,211);
   border-width: 0 3px 3px 0;
@@ -172,7 +167,7 @@
   -webkit-transform: rotate(-45deg);
 }
 
-.company_name{
+.company-name{
   border-bottom: 3px solid rgb(120,229,211); 
   text-align: center;
   display: inline;
@@ -182,74 +177,32 @@
   font-weight: 700;
 }
 
-/* .custom_card4{
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  padding-top: 3rem;
-} */
-
-/* .name_spacing{
-  margin-top: 3rem ;
-} */
-
-.arrow_adjust{
-  /* margin-left: -9px;
-  margin-bottom: -4px; */
+.arrow-adjust{
   margin-left: -0.6rem;
   margin-bottom: -0.25rem;
 }
 
-@media (max-width:575px) {
-
-  .name_spacing{
-    margin-top: 1rem ;
-  }
-  
-}
-
-
-/* Footer section */
-
-.custom_footer{
-  height: fit-content;
+.copyright{
   background-color: rgb(98,179,196);
   color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: static;
-  bottom: 0px;
-  left: 0px;
-  padding: 0.5rem;
 }
 
-.custom_footer h4{
+.copyright h4{
   font-size: 0.9rem;
   text-align: center;
   font-weight: 200;
   margin-bottom: 0px;
+  padding: 0.5rem;
 }
-
-
 
 /* Util */
 
-
-.make_center_align{
-  margin: auto; 
-  width: fit-content;
-}
-
-
 ul {
-  list-style-type: none;
   margin: auto;
   padding-bottom: 0px;
   width: fit-content;
   align-items: center;
-  overflow: hidden;
-  
+  overflow: hidden;  
 }
 
 li a {
@@ -260,39 +213,29 @@ padding: 10px;
 text-decoration: none;
 } 
 
-
 li{
   transition: all .3s ease-out;
 }
-
-
 
 li :hover{
   color: black;
 }
 
-.horizontal_line{
-  height:3px !important;
-  border-width:0;
-  color:white;
-  background-color: white ;
-  width: 95%;margin: auto;
-}
-
-.thumb_img{
+.thumb-img{
   width: 100px;
   height: 100px;
 }
 
-
-@media (min-width: 1400px){}
-.container_modified{
-    max-width: 1393px;
+.fw_200{
+  font-weight: 200
 }
 
+/* Media Queries for different screen size */
 
-
-
+@media (min-width: 1400px){}
+.container-modified{
+    max-width: 1393px;
+}
 
 @media (min-width:1006px) {
   
@@ -322,10 +265,9 @@ li :hover{
   }
 }
 
-
 @media (max-width:768px) {
   
-  .video_container{
+  .video-container{
     flex-direction: column;
     align-items: center;
   }
