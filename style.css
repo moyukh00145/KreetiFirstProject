@@ -21,6 +21,13 @@
   background-color: white ;
   width: 95%;margin: auto;
 }
+#logo1{
+  visibility: visible;
+}
+#logo2{
+  color: white;
+  display: none;
+}
 
 /* Inside header Carausel section */
 
@@ -215,6 +222,7 @@ text-decoration: none;
 
 li{
   transition: all .3s ease-out;
+  font-size: 1.3rem;
 }
 
 li :hover{
@@ -228,6 +236,9 @@ li :hover{
 
 .fw_200{
   font-weight: 200
+}
+.w-2{
+  width: 2.5rem;
 }
 
 /* Media Queries for different screen size */
@@ -263,6 +274,14 @@ li :hover{
   html{
     font-size: 12px;
   }
+
+  #logo1{
+    display: none;
+  }
+
+  #logo2{
+    display: block;
+  }
 }
 
 @media (max-width:768px) {
@@ -289,3 +308,4 @@ li :hover{
     width: 38%;
   }
 }
+

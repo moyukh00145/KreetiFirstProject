@@ -1,0 +1,7 @@
+1. Use 2 space indentation in your code i.e, in index.html file. **(Done)**
+2. Remove unnecessary comments and spaces from your code.**(Done)**
+3. Make your whole project containerised.
+4. Use semantic elements in your code as well as reduce the usage of divs.
+5. In mobile view the position of the navbar should be in the same line as the logo, currently it is placed downwards, fix it.**(Done)**
+6. The menu section is looking very small in the mobile view, fix it.**(Tried but need to verify from mentor)**
+7. All the mobile view is not correct, the texts are getting cut away and the website is getting distorted.
