@@ -1,6 +1,4 @@
 
-/* Navigation section Css */
-
 .header{
   background-color: rgb(106, 147, 131);
 }
@@ -29,7 +27,6 @@
   display: none;
 }
 
-/* Inside header Carausel section */
 
 .header-caraousel{
   height: 19rem;
@@ -53,7 +50,6 @@
   color: rgb(211 211 211);
 }
 
-/* Second section od thumbnil section */
 
 .card-section-header{
   height: fit-content; 
@@ -97,7 +93,7 @@
 	transform: translateY(-15px);
 }
 
-.custom-card div{
+.custom-card figcaption{
   padding: 0.3rem;
 }
 
@@ -110,7 +106,7 @@
   color: grey;
 }
 
-/* Third section pc video player */
+
 
 #third-section{
   background-color: rgb(51,51,51); 
@@ -149,14 +145,13 @@
   color: gray;
 }
 
-/* Footer section */
 
 .company-about{
   height: fit-content;
   padding-bottom: 3rem;
 }
 
-.company-about p{
+.company-about article{
   font-size: 0.9rem;
   font-weight: 400;
   color: gray;
@@ -202,7 +197,6 @@
   padding: 0.5rem;
 }
 
-/* Util */
 
 ul {
   margin: auto;
@@ -241,17 +235,23 @@ li :hover{
   width: 2.5rem;
 }
 
-/* Media Queries for different screen size */
 
-@media (min-width: 1400px){}
+@media (min-width: 1400px){
 .container-modified{
     max-width: 1393px;
 }
+}
 
-@media (min-width:1006px) {
+@media (min-width:1200px) {
   
   html{
     font-size: 18px;
+  }
+}
+
+@media (max-width:1199px) {
+  html{
+    font-size: 17px;
   }
 }
 
@@ -284,7 +284,21 @@ li :hover{
   }
 }
 
+@media (max-width:991px) {
+  
+  .row-art{
+    width: 88%;
+    margin: auto;
+  }
+}
+
+
 @media (max-width:768px) {
+
+  .row-art{
+    width: 91%;
+    margin: auto;
+  }
   
   .video-container{
     flex-direction: column;
@@ -307,5 +321,46 @@ li :hover{
   .custom-btn{
     width: 38%;
   }
+
+  
 }
+
+@media (max-width:576px) {
+
+  .row-art{
+    width: 81%;
+    margin: auto;
+  }
+
+  .header-caraousel{
+    padding-bottom: 1rem;
+    height: 25rem;
+  }
+  
+  .carausal-container{
+    flex-direction: column;
+  }
+
+  .carausel-inner-heading h1{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .carausel-inner-heading p{
+    text-align: center;
+  }
+
+  .carausal-container img {
+    margin: auto;
+  }
+
+}
+
+@media (max-width:357px) {
+  .header-caraousel{
+    height: 28rem;
+  }
+}
+
 
