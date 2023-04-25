@@ -51,6 +51,11 @@
   color: rgb(211 211 211);
 }
 
+.carausal-img {
+  width: 200px;
+  aspect-ratio: 1/1;
+}
+
 .card-section-header {
   height: fit-content;
   background-color: rgb(51, 51, 51);
@@ -138,6 +143,10 @@
   display: flex;
   flex-direction: row;
   padding-bottom: 2rem;
+}
+
+.video-container-thumbnail {
+  width: 80%;
 }
 
 .video-container-description p {
@@ -237,15 +246,13 @@ li :hover {
   width: 2.5rem;
 }
 
-@media (min-width: 1400px) {
-  .container-modified {
-    max-width: 1393px;
-  }
-}
-
 @media (min-width: 1200px) {
   html {
     font-size: 18px;
+  }
+  .row-adjust {
+    width: 95%;
+    margin: auto;
   }
 }
 
@@ -253,17 +260,19 @@ li :hover {
   html {
     font-size: 16px;
   }
-}
-
-/* @media (max-width: 1005px) {
-  html {
-    font-size: 16px;
+  .row-adjust {
+    width: 95%;
+    margin: auto;
   }
-} */
+}
 
 @media (max-width: 768px) {
   html {
     font-size: 14px;
+  }
+  .row-adjust {
+    width: 95%;
+    margin: auto;
   }
 }
 
@@ -278,6 +287,9 @@ li :hover {
 
   #logo2 {
     display: block;
+  }
+  .row-adjust {
+    width: 100%;
   }
 }
 
@@ -353,5 +365,15 @@ li :hover {
 @media (max-width: 357px) {
   .header-caraousel {
     height: 28rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container-modified {
+    max-width: 1393px;
+  }
+  .row-adjust {
+    width: 90%;
+    margin: auto;
   }
 }
