@@ -348,7 +348,7 @@ li :hover {
     flex-direction: column;
   }
 
-  .carausel-inner-heading h1 {
+  .carausel-inner-heading h2 {
     margin: auto;
     width: 100%;
     text-align: center;
@@ -363,9 +363,16 @@ li :hover {
   }
 }
 
-@media (max-width: 357px) {
-  .header-caraousel {
+@media (max-width:459px){
+  .header-caraousel{
     height: 28rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (max-width: 305px) {
+  .header-caraousel {
+    height: 32rem;
   }
 }
 
