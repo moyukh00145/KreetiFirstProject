@@ -9,12 +9,11 @@
   font-family: "ITC Cheltenham Handtooled Std";
   margin: auto;
   width: fit-content;
+  cursor: pointer;
 }
 
 .horizontal-line {
-  height: 3px !important;
-  border-width: 0;
-  color: white;
+  height: 1px;
   background-color: white;
   width: 95%;
   margin: auto;
@@ -22,6 +21,11 @@
 
 #logo1 {
   visibility: visible;
+  margin-bottom: 1.5rem;
+}
+
+.header nav{
+  margin-bottom: 1rem;
 }
 
 #logo2 {
@@ -30,31 +34,37 @@
 }
 
 .header-caraousel {
-  height: 19rem;
   padding-top: 2.5rem;
-  padding-bottom: 4rem;
+  margin-bottom: 1rem;
 }
 
 .carausel-inner-heading {
   text-align: start;
   color: white;
+  width: 50%;
+  margin-top: 0.1rem;
 }
 
 .carausel-inner-heading h2 {
   width: 50%;
   font-weight: 200;
   margin: 0px;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 .carausel-inner-heading p {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: rgb(211 211 211);
+  margin-top: 1.2rem;
 }
 
 .carausal-img {
-  width: 200px;
+  width: 250px;
   aspect-ratio: 1/1;
+}
+
+.card-section{
+  padding-top: 2rem;
 }
 
 .card-section-header {
@@ -65,16 +75,15 @@
   text-align: center;
 }
 
-.card-section-header h3 {
-  font-weight: 200;
-  margin: auto;
+.card-section-header h2 {
+  margin: auto auto 0.5rem auto;
 }
 
 .card-section-header h6 {
   font-size: 0.9rem;
   font-weight: 500;
   color: grey;
-  margin: auto;
+  margin: auto auto 0.5rem auto;
 }
 
 .custom-card {
@@ -84,10 +93,6 @@
   box-sizing: border-box;
   transition: all 0.3s ease-out;
   border-radius: 1.5rem;
-}
-
-.custom-card :hover {
-  box-shadow: 3px;
 }
 
 .round-image-fit {
@@ -101,6 +106,7 @@
 
 .custom-card figcaption {
   padding: 0.3rem;
+  margin-top: 1rem;
 }
 
 .card-section div {
@@ -110,6 +116,10 @@
 .card-body p {
   font-size: 0.9rem;
   color: grey;
+}
+
+.card-body h6 {
+  font-weight: 280;
 }
 
 #third-section {
@@ -135,9 +145,11 @@
 }
 
 .custom-btn {
-  width: 30%;
   background-color: rgb(154, 201, 231);
   border: none;
+  border-radius: 0px;
+  color: white;
+  
 }
 
 .video-container {
@@ -148,6 +160,10 @@
 
 .video-container-thumbnail {
   width: 80%;
+}
+
+.video-container-description div{
+  margin-left: initial;
 }
 
 .video-container-description p {
@@ -177,7 +193,6 @@
 
 .right {
   transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
 }
 
 .company-name {
@@ -235,8 +250,8 @@ li :hover {
 }
 
 .thumb-img {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
 }
 
 .fw_200 {
@@ -301,7 +316,7 @@ li :hover {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .row-art {
     width: 91%;
     margin: auto;
@@ -310,6 +325,10 @@ li :hover {
   .video-container {
     flex-direction: column;
     align-items: center;
+  }
+
+  .video-container-description{
+    padding-top: 0px;
   }
 
   .video-container-description p {
@@ -340,12 +359,15 @@ li :hover {
   }
 
   .header-caraousel {
-    padding-bottom: 1rem;
-    height: 25rem;
+    margin-bottom: 0px;
   }
 
   .carausal-container {
     flex-direction: column;
+  }
+
+  .carausel-inner-heading{
+    width: 100%;
   }
 
   .carausel-inner-heading h2 {
@@ -363,16 +385,9 @@ li :hover {
   }
 }
 
-@media (max-width:459px){
-  .header-caraousel{
-    height: 28rem;
-    padding-bottom: 1rem;
-  }
-}
-
 @media (max-width: 305px) {
   .header-caraousel {
-    height: 32rem;
+    margin-bottom: 0px
   }
 }
 
